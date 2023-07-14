@@ -3,12 +3,18 @@
 		<div class="fs-1">お問い合わせありがとうございます。</div>
 		<p class="fs-3">ご記入いただいた情報は送信されました。</p>
 	</div>
-	<button onclick="location.href='./'" type="button" class="top-page-btn btn btn-primary btn-lg col-4">トップページに戻る</button>
+	<button v-on:click="moveTop" type="button" class="top-page-btn btn btn-primary btn-lg col-4">トップページに戻る</button>
 </template>
 
 <script>
 export default {
-  name: 'SendCompletely',
+	name: 'SendCompletely',
+	methods: {
+		moveTop: function () {
+
+			location.href = "./";
+		},
+	}
 }
 </script>
 
