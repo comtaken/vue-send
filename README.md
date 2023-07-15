@@ -29,5 +29,5 @@
   - $ firewall-cmd --reload
   - $ cd /var/www/html/sample
   - $ npm run serve
-  - http://IPアドレス:8080
+  - IPアドレス:8080アクセス
 
