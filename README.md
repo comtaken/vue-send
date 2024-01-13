@@ -8,6 +8,7 @@
 - 前提条件
 
   Linux（RedHat系）が立ち上がる事
+  apachが起動していること
 - 手順
   - $ cd /
   - $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
