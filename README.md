@@ -13,6 +13,7 @@
   - $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
   - $ export NVM_DIR="$HOME/.nvm"
   - 一回ターミナル閉じて立ち上げなおす
+  - $ dnf install tar
   - $ nvm install node
   - $ nvm -v
   - $ nvm install 16.20.1
