@@ -30,6 +30,9 @@
   - $ firewall-cmd --add-port=8080/tcp --permanent
   - $ firewall-cmd --reload
   - $ cd /var/www/html/sample
+  - sample/config/index.js<br>
+    host:'localhost' //環境により変更必要<br>
+    port:8080　　　　//繋がらない場合、8081など変更
   - $ npm run serve
   - IPアドレス:8080アクセス
 
